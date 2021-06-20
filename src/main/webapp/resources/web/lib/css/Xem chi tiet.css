@@ -1,0 +1,19 @@
+
+.service{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+.item-service{
+    text-align: center;
+    font-size: 14px;
+    background-color: #f7f8f9;
+    border-bottom: 1px solid #e1e1e1;
+    padding: 10px 20px ;
+}
+.item-service i{
+    font-size: 25px;
+}
+.item-service p{
+    margin: 0;
+}

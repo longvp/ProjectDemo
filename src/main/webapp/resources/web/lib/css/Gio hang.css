@@ -1,0 +1,63 @@
+table th, table td{
+    border-collapse: collapse;
+  	border: solid thin #ddd; 
+    padding: 5px;
+    text-align: center;
+    font-size: 16px;
+}
+.gio-hang{
+    width: 100%;
+    text-align: center;
+}
+.gio-hang img{
+    max-height: 100%;
+    max-width: 100%;
+    display: block;
+    padding: 0 !important;
+    width: 80px;
+}
+
+.total{
+    width: 100%;
+    margin-bottom: 50px;
+}
+
+.total span:first-child{
+    font-size: 25px;
+    color: black;
+    font-weight: bold;
+    margin-right: 20px;
+    text-transform: uppercase;
+}
+.total span:last-child{
+    font-size: 25px;
+    color: #DC3333;
+    font-weight: bold;
+}
+
+#btn-thanhtoan:focus{
+    outline: none;
+}
+#btn-thanhtoan{
+    text-decoration: none;
+    background-color: #DC3333;
+    color: white;
+    font-weight: bold;
+    font-size: 14px;
+    width: 100%;
+    border: 1px solid #DC3333;
+    padding: 10px 0;
+    text-transform: uppercase;
+}
+
+.giatien, .thanhtien{
+	color: #DC3333;
+	font-weight: 600;
+	font-size: 20px;
+}
+
+.soluong{
+	text-align: center;
+} 
+
+

@@ -1,0 +1,91 @@
+main{
+    background-color: #f5f0f0;
+}
+.sp-title{
+    padding: 10px 0;
+    text-align: center;
+    cursor: pointer;
+    color: black;
+    position: relative;
+    border: 1px solid white;
+    font-size: 14px;
+    font-weight: 600;
+    background-color: white;
+    width: calc(100%/3);
+}
+.sp-title i{
+    display: none;
+    color: #DC3333;
+    position: absolute;
+    font-size: 50px;
+    left: 50%;
+    top: 50%;
+}
+.sp-title:hover{
+    background-color: #DC3333;
+    color: white;
+}
+.sp-title:hover i{
+    display: block;
+}
+.sp-active{
+    background-color: #DC3333;
+    color: white;
+}
+.sp-active i{
+    display: block;
+}
+.header-title a{
+    text-decoration: none;
+    color: #DC3333;
+    font-size: 20px;
+}
+
+.brand ul{
+    list-style-type: none;
+    display: flex;
+    justify-content: center;
+    padding: 0;
+    margin: 0;
+}
+.brand ul li{
+    padding: 20px 20px;
+}
+.brand ul li a img{
+    width: 120px;
+    height: 80px;
+    object-fit: scale-down;
+}
+
+@media (max-width: 575px){
+	.ad{
+        display: none;
+    }
+}
+
+@media (min-width: 576px) and (max-width: 767px){
+	.ad{
+        display: none;
+    }
+}
+
+@media (min-width: 768px) and (max-width: 991px){
+	.ad{
+        display: none;
+    }
+}
+
+
+@media (min-width: 992px) and (max-width: 1199px){
+	.ad{
+        display: none;
+    }
+}
+
+
+@media (min-width: 1200px){
+	
+}
+.show{
+    display: block;
+}

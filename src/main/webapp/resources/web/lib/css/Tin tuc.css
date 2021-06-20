@@ -1,0 +1,73 @@
+.danh-muc-tin-tuc{
+    background-color: #DC3333;
+    padding: 15px 20px;
+    color: white;
+    font-size: 14px;
+}
+.list-ten-danh-muc{
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+.list-ten-danh-muc li{
+    padding: 15px 20px;
+    background-color: #ebebeb;
+    border-top: 1px solid rgb(207, 203, 203);
+    border-right: 1px solid rgb(207, 203, 203);
+    border-left: 1px solid rgb(207, 203, 203);
+}
+.list-ten-danh-muc li:last-child{
+    border-bottom: 1px solid rgb(207, 203, 203);
+}
+.list-ten-danh-muc li a{
+    text-decoration: none;
+    color: #636363;
+    font-size: 14px;
+}
+.list-ten-danh-muc li a:hover{
+    color: #DC3333;
+}
+.blog{
+    text-align: center;
+}
+.blog li{
+    background-color: white;
+}
+.date{
+    font-size: 12px;
+    margin: 10px 0;
+    text-align: center;
+}
+.date i{
+    color: #898989;
+    margin-right: 5px;
+}
+.blog-item{
+    text-align: justify;
+}
+.blog-item .blog-name a{
+    text-decoration: none;
+    color: #636363;
+    text-transform: uppercase;
+    font-size: 20px;
+}
+.blog-item .blog-name a:hover{
+    color: #DC3333;
+}
+.blog-item .text{
+    font-size: 14px;
+    color: black;
+}
+.blog-item .read-more{
+    text-align: center;
+    margin-top: 15px;
+}
+.blog-item .read-more a{
+    color: white;
+    background-color: #DC3333;
+    padding: 5px 7px;
+    text-decoration: none;
+}
+.blog-item .read-more a:hover{
+    opacity: 0.8;
+}

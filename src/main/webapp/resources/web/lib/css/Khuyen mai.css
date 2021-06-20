@@ -1,0 +1,15 @@
+.sale-title{
+    color: #DC3333;
+    font-size: 17px;
+    font-weight: bold;
+}
+.sale-title i{
+    margin-right: 10px;
+}
+.sale{
+    color: #DC3333;
+    font-size: 20px;
+    font-weight: 400;
+    text-decoration: none;
+}
+

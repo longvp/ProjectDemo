@@ -1,0 +1,93 @@
+.product .col-md-3{
+    padding: 0;
+    border: 1px solid #DDD;
+}
+.sp{
+    position: relative;
+    padding: 20px 0;
+    text-align: center;
+    background-color: white;
+}
+.sp .new, .sp .hot{
+    position: absolute;
+    top: 0;
+    right: 0;
+    background-color: #48CC7B;
+    font-size: 14px;
+    padding: 3px 8px;
+    color: white;
+}
+.sp .hot{
+    background-color: #DC3333;
+}
+.sp .name-sp{
+    text-decoration: none;
+    color: #898989;
+    
+}
+.sp .name-sp:hover{
+    color: #DC3333;
+}
+.sp .price{
+    margin-top: 20px;
+    color: #DC3333;
+    font-size: 20px;
+    font-weight: 600;
+}
+.sp .action{
+    position: absolute;
+    top: 80px;
+    left: 45px;
+    display: none;
+}
+.sp .action div{
+    border: 1px solid #DC3333;
+    text-decoration: none;
+    padding: 3px 5px;
+    width: 150px;
+    margin-bottom: 10px;
+    background-color: white;
+}
+.sp .action div a{
+    text-decoration: none;
+    font-size: 14px;
+    color: #DC3333;
+}
+.sp .action div:hover{
+    background-color: #DC3333;
+}
+.sp .action div:hover a{
+    color: white;
+}
+.sp img{
+    margin-bottom: 20px;
+}
+.sp:hover img{
+    opacity: 0.5;
+    transform: scale(0.7);
+    transition: 0.3s;
+}
+.sp:hover .action{
+    display: block;
+    transition: 1s;
+}
+.show-sp-noi-bat, .show-sp-mua-nhieu{
+    display: none;
+}
+.animate {
+    -webkit-animation: animatezoom 0.6s;
+    animation: animatezoom 0.6s
+}
+  
+@-webkit-keyframes animatezoom {
+    from {-webkit-transform: scale(0)} 
+    to {-webkit-transform: scale(1)}
+}
+    
+@keyframes animatezoom {
+    from {transform: scale(0)} 
+    to {transform: scale(1)}
+}
+
+
+

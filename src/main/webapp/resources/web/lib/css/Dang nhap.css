@@ -1,0 +1,73 @@
+.button:focus{
+    outline: none;
+}
+.button{
+    background-color: #DC3333;
+    border: 1px solid #DC3333;
+    color: white;
+    text-decoration: none;
+    font-size: 14px;
+    padding: 10px;
+    width: 20%;
+}
+.button:last-child:hover{
+    color: white;
+}
+.button:hover{
+    opacity: 0.8;
+}
+.dang-nhap input{
+    width: 80%;
+    margin-bottom: 20px;
+    border: 1px solid gray;
+    border-radius: 3px;
+    padding: 5px 10px;
+    color: #777;
+    font-size: 16px;
+}
+.dang-nhap input:focus{
+    outline: none;
+    border: 1px solid #66afe9;
+}
+.forgot{
+    color: black;
+    font-size: 14px;
+    font-weight: 600;
+}
+.forgot:hover{
+    color: #DC3333;
+}
+.list-dang-nhap{
+    list-style-type: none;
+    padding: 0;
+    display: flex;
+}
+.list-dang-nhap li{
+    width: 20%;
+    text-align: center;
+    padding: 5px;
+    cursor: pointer;
+    margin-right: 10px;
+}
+.list-dang-nhap li:first-child{
+    background-color: #3B5988;
+}
+.list-dang-nhap li:last-child{
+    background-color: #E02F;
+}
+.list-dang-nhap li a{
+    text-decoration: none;
+    color: white;
+    font-size: 14px;
+}
+.list-dang-nhap li a i{
+    margin-right: 5px;
+}
+.list-dang-nhap li:hover{
+    opacity: 0.8;
+}
+.note{
+    color: #959595;
+    font-size: 14px;
+    text-align: justify;
+}

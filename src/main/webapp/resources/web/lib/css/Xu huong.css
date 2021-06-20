@@ -1,0 +1,44 @@
+.item-danh-muc{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+.item-danh-muc li, .title-danh-muc{
+    padding: 15px;
+    cursor: pointer;
+    font-size: 14px;
+    background-color: #f7f8f9;
+}
+.title-danh-muc{
+    background-color: #DC3333;
+    color: white;
+    font-size: 20px;
+    cursor: inherit;
+}
+.item-danh-muc li:first-child{
+    background-color: #FF9D06;
+    color: white;
+}
+.item-danh-muc li:hover{
+    background-color: #FF9D06;
+    color: white;
+}
+.trend{
+    border: 1px solid gray;
+    padding: 80px 20px;
+    text-align: center;
+}
+.trend a{
+    font-size: 14px;
+    text-decoration: none;
+    color: #898989;
+}
+.trend a:hover{
+    color: #DC3333;
+}
+.trend img{
+    margin-top: 10px;
+}
+.trend img:hover{
+    opacity: 0.5;
+}

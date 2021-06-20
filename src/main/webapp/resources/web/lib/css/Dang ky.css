@@ -1,0 +1,27 @@
+.dang-ky input{
+    width: 50%;
+    margin-bottom: 30px;
+    border: 1px solid gray;
+    border-radius: 3px;
+    padding: 10px;
+    color: #777;
+    font-size: 16px;
+}
+.dang-ky input:focus{
+    outline: none;
+    border: 1px solid #66afe9;
+}
+.dang-ky button{
+    background-color: #Dc3333;
+    border: 1px solid #Dc3333;
+    color: white;
+    width: 20%;
+    padding: 10px 0;
+    border-radius: 5px;
+}
+.dang-ky button:hover{
+    opacity: 0.8;
+}
+.dang-ky button:focus{
+    outline: none;
+}
